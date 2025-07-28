@@ -92,13 +92,9 @@ Make sure your response is valid JSON with no additional text or formatting.`
             <div className="p-3 bg-primary/10 rounded-xl">
               <Sparkles size={32} className="text-primary" weight="bold" />
             </div>
-            <h1 className="text-4xl font-bold text-foreground">
-              AI-Powered Marketing Assistant
-            </h1>
+            <h1 className="text-4xl font-bold text-foreground">AI-Powered Marketing A</h1>
           </div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Transform your product descriptions into comprehensive marketing strategies with AI-generated copy, visual direction, and audience insights.
-          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Transform your product descriptions into comprehensive marketing strategies with AI-generated copy, visual direction, and audience insights.</p>
         </motion.div>
 
         {/* Input Form */}
@@ -280,7 +276,7 @@ Make sure your response is valid JSON with no additional text or formatting.`
         </AnimatePresence>
       </div>
     </div>
-  )
+  );
 }
 
 export default App
